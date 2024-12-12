@@ -1,8 +1,9 @@
-# Overview
+# BetterChaseThem Game
+## Overview
 This repository contains the implementation of a two-part project implemented in C regarding Systems Programming. 
 The project involves developing a distributed client-server game where players control balls that move within a field to interact with bots and collect prizes.
 
-## Part A: ChaseThem
+### Part A: ChaseThem
 In this part, the game features a client-server architecture using Unix domain datagram sockets. Players control balls represented by letters in a terminal-based field. 
 The server manages:
 - Player connections and movements.
@@ -14,7 +15,7 @@ Key rules:
 - A ball’s health starts at 10 and decreases to 0 upon unfavourable interactions. If a ball’s health reaches 0, it is removed from the game.
 - The game supports up to 10 players and bots simultaneously.
 
-## Part B: BetterChaseThem
+### Part B: BetterChaseThem
 This second part builds upon part A, and introduces a more robust implementation with improvements.
 This part utilises Internet domain stream sockets and incorporates multithreading.
 
